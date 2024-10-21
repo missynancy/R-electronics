@@ -11,7 +11,6 @@ import formal from './Shopofficial.json'
 import latest from '../Latest/latest.json'
 import newitem from '../new.json'
 import { CartContext } from '../cart/CartDetails';
-import { Header } from '../../components/Header';
  // Assuming you have styles in this file
 
 export const ProductDetails = () => {
@@ -86,7 +85,6 @@ export const ProductDetails = () => {
 
   return (
     <>
-      <Header />
       <div className='product-details'>
         <div className="product-img">
           <div className="main-img">

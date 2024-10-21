@@ -1,7 +1,6 @@
 // src/pages/Cart.js
 import React, { useContext } from 'react';
 import { CartContext } from './CartDetails';
-import { Header } from '../../components/Header';
 import { Link } from 'react-router-dom';
 import './Cart.css';
 
@@ -10,7 +9,6 @@ const Cart = () => {
 
   return (
     <>
-      <Header />
       <div className='cart'>
         <h1>Cart</h1>
         {cart.length === 0 ? (

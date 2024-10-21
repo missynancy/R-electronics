@@ -33,12 +33,12 @@ function App() {
         <Route path='/shop' element={<Shop />} />
         <Route path='/services' element={<Service />} />
         <Route path='/contacts' element={<Contact />} />
-        <Route path='/sneakers' element={<Sneakers />} />
-        <Route path='/converse' element={<Converse />} />
-        <Route path='/officials' element={<Officials />} />
-        <Route path='/heels' element={<Heels />} />
-        <Route path='/sandals' element={<Sandals />} />
-        <Route path='/kids' element={<Kids />} />
+        <Route path='/phones' element={<Sneakers />} />
+        <Route path='/lp' element={<Converse />} />
+        <Route path='/dt' element={<Officials />} />
+        <Route path='/mt' element={<Heels />} />
+        <Route path='/up' element={<Sandals />} />
+        <Route path='/ca' element={<Kids />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/payment' element={<Payment />} />
         <Route path='/sneakerdetails/:brand/:id' element={<SneakerDetails />} />

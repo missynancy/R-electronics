@@ -81,7 +81,7 @@ a:hover{
     padding: 5px 10px;
   }
   .contact-page a:hover{
-    box-shadow: 0 0 25px orange;
+    box-shadow: 0 0 25px yellow;
   }
   .contact-info {
     width: 100%;
@@ -113,11 +113,11 @@ a:hover{
   }
   .contact-form input:focus,
   .contact-form textarea:focus{
-    box-shadow: 0 0 25px rgb(236, 189, 101);
+    box-shadow: 0 0 25px yellow;
   }
   .contact-form button {
     padding: 10px;
-    background-color: orange;
+    background-color: yellow;
     font-size: 18px;
     font-weight: 600;
     border: none;
@@ -126,7 +126,7 @@ a:hover{
   }
   
   .contact-form button:hover {
-    box-shadow: 0 0 25px orange;
+    box-shadow: 0 0 25px yellow;
   }
   
   /* Payment */

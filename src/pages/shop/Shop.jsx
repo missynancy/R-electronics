@@ -18,7 +18,7 @@ export const Shop = () => {
     <div className='shop shop-p'>
 
           <div className="shop-sneaker product-background margin" id="sneakers">
-            <h1>Sneakers</h1>
+            <h1>Phones</h1>
             <Link to='/sneakers'>View All</Link>
             <div className="shop-content">
               {
@@ -39,7 +39,7 @@ export const Shop = () => {
             </div>
           </div>
           <div className="shop-sneaker product-background margin" id="canva">
-            <h1>Converse</h1>
+            <h1>Laptops</h1>
             <Link to='/converse'>View All</Link>
             <div className="shop-content">
               {
@@ -60,7 +60,7 @@ export const Shop = () => {
             </div>
           </div>
           <div className="shop-sneaker margin" id="heels" id='office'>
-            <h1>Official</h1>
+            <h1>Desktop</h1>
             <Link to='/officials'>View All</Link>
             <div className="shop-content">
               {
@@ -81,7 +81,7 @@ export const Shop = () => {
             </div>
           </div>
           <div className="shop-sneaker margin" id="heels">
-            <h1>Heels</h1>
+            <h1>Monitors</h1>
             <Link to='/heels'>View All</Link>
             <div className="shop-content">
               {
@@ -102,7 +102,7 @@ export const Shop = () => {
             </div>
           </div>
           <div className="shop-sneaker margin" id="sandals">
-            <h1>Sandals</h1>
+            <h1>UPS</h1>
             <Link to='/sandals'>View All</Link>
             <div className="shop-content">
               {
@@ -121,9 +121,10 @@ export const Shop = () => {
                 }) : null
               }
             </div>
+            
           </div>
           <div className="shop-sneaker margin" id="kids">
-            <h1>Kids</h1>
+            <h1>Computer Accessories</h1>
             <Link to='/kids'>View All</Link>
             <div className="shop-content">
               {
@@ -143,7 +144,69 @@ export const Shop = () => {
               }
             </div>
           </div>
-        
+          <div className="shop-sneaker margin" id="kids">
+            <h1>Phone Accessories</h1>
+            <Link to='/kids'>View All</Link>
+            <div className="shop-content">
+              {
+                kids && kids.length ?
+                kids.map(product => {
+                  return(
+                    <div key={product.id} className='shop-product'>
+                      <img src={product.image} alt={product.name} />
+                      <h3>{product.name}</h3>
+                      <h3>{product.price}</h3>
+                      <Link to={`/productdetails/kids/${product.id}`}>
+                        <button>View product</button>
+                      </Link>
+                  </div>
+                  )
+                }) : null
+              }
+            </div>
+          </div>
+          <div className="shop-sneaker margin" id="kids">
+            <h1>TV & Entertainment</h1>
+            <Link to='/kids'>View All</Link>
+            <div className="shop-content">
+              {
+                kids && kids.length ?
+                kids.map(product => {
+                  return(
+                    <div key={product.id} className='shop-product'>
+                      <img src={product.image} alt={product.name} />
+                      <h3>{product.name}</h3>
+                      <h3>{product.price}</h3>
+                      <Link to={`/productdetails/kids/${product.id}`}>
+                        <button>View product</button>
+                      </Link>
+                  </div>
+                  )
+                }) : null
+              }
+            </div>
+          </div>
+          <div className="shop-sneaker margin" id="kids">
+            <h1>Printers, Scanners & Computers</h1>
+            <Link to='/kids'>View All</Link>
+            <div className="shop-content">
+              {
+                kids && kids.length ?
+                kids.map(product => {
+                  return(
+                    <div key={product.id} className='shop-product'>
+                      <img src={product.image} alt={product.name} />
+                      <h3>{product.name}</h3>
+                      <h3>{product.price}</h3>
+                      <Link to={`/productdetails/kids/${product.id}`}>
+                        <button>View product</button>
+                      </Link>
+                  </div>
+                  )
+                }) : null
+              }
+            </div>
+          </div>
         
     </div>
   

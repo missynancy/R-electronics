@@ -10,13 +10,13 @@ export const Sneakers = () => {
   return (
     <>
       <div className='shop'>
-        <ul className='shoe-link'>
+        {/* <ul className='shoe-link'>
           <li><a href="#nike">Nike</a></li>
           <li><a href="#puma">Puma</a></li>
           <li><a href="#newbalance">New Balance</a></li>
           <li><a href="#adidas">Adidas</a></li>
           <li><a href="#oxford">Oxford</a></li>
-        </ul>
+        </ul> */}
         <div className="shop-sneakers" id='nike'>
           <h1>Nike</h1>
           <div className="shop-content">

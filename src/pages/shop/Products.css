@@ -6,8 +6,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -50px;
-    
+    margin-top: -20px;
+    background-color: #63616141;
+    width: 100%;
+    margin-left: -30px;
 }
 .shoe-link{
     width: 98%;
@@ -33,13 +35,18 @@
     border-radius: 10px;
 }
 .shoe-link li a:hover{
-    background-color: orange;
+    background-color: yellow;
     border: none;
     color: #fff;
 }
-
-.shop-sneakers{
+.shop-sneakers h1{
     text-align: center;
+    margin-bottom: -10px;
+    margin-top: 10px-;
+}
+.shop-sneaker{
+    text-align: center;
+    margin-top: -20px;
 }
 .shop-p{
     display: flex;
@@ -53,7 +60,7 @@
     transition: 0.5s ease-in;
 }
 .shop-p a:hover{
-    color: orange;
+    color: yellow;
     
 }
 
@@ -65,19 +72,20 @@
     margin-top: 20px;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 3px;
     border-radius: 20px;
     padding: 20px;
     
     
 }
 .shop-product{
-    width: 250px;
-    height:400px;
+    width: 200px;
+    height:350px;
     text-align: center;
-    border: 2px solid #333;
+    border: none;
     border-radius: 20px;
     padding: 5px;
+    position: relative;
 }
 
 .shop-product img{
@@ -91,15 +99,19 @@
 }
 .shop-product button{
     font-weight: 600;
-    background-color: orange;
+    background-color: yellow;
     border: none;
     border-radius: 10px;
-    padding: 5px 10px;
+    width: 80%;
+    padding: 8px 0;
     cursor: pointer;
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
     
 }
 .shop-product button:hover{
-    box-shadow: 0 0 25px orange;
+    box-shadow: 0 0 25px yellow;
 }
 
 @media (max-width: 320px) {
@@ -165,7 +177,7 @@
     cursor: pointer;
 }
 .back-top:hover{
-    color: orange;
+    color: yellow;
 }
 .back-top .bx-up-arrow-alt{
     font-size: 20px;
@@ -199,7 +211,7 @@
     margin-top: 20px;
 }
 .product-cont button:hover{
-    background-color: orange;
+    background-color: yellow;
     color: #fff;
     cursor: pointer;
 } */
@@ -270,6 +282,6 @@
   }
   
   .product-cont a:hover {
-    background-color: orange;
+    background-color: yellow;
     
   }

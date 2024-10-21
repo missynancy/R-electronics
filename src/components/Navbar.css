@@ -64,19 +64,25 @@ nav{
     background-color: white;
     border-radius: 0.2rem;
 }
-
+.nav1 form {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
 .nav1 form input{
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     border: none;
+    width: 77%;
 }
 .nav1 form input:focus{
     box-shadow: 0 0 25px yellow;
 }
 .nav1 form button{
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     border: none;
+    width: 17%;
 }
 
 @media (max-width: 425px) {
@@ -117,7 +123,6 @@ nav{
     justify-content: space-between;
     display: flex;
     background-color: #fff;
-
 }
 .nav2 .menu2{
     margin-left: 30px;
@@ -218,11 +223,13 @@ nav{
     color: white;
     background-color: black;
     border-radius: 50%;
+    width: 50px;
+    margin-right: 25px;
 }
 .carticon i{
     font-size: 30px;
     padding: 10px;
-    color: black;
+    color: white;
     margin-right: 30px;   
 }
 .cartSpan{
@@ -230,6 +237,7 @@ nav{
     right: 25px;
     color: yellow;
     font-weight: 600;
+    top: 80px;
 }
 
 
@@ -239,7 +247,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #c9c9c9;
+    background-color: rgba(0, 0, 0, 0.315);
     width: 100%;
     
 }
@@ -262,10 +270,11 @@ nav{
     border-radius: 10px;
     transition: 0.3s ease;
     text-align: center;
+    padding: 2px 5px;
 }
 .footer a:hover{
-    color: orange;
-    border-bottom: 1px solid orange;
+    color: black;
+    background-color: yellow;
 }
 .footer i{
     font-size: 20px;
