@@ -1,0 +1,208 @@
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-color: #c2bebe42;
+}
+a:hover{
+  color: yellow;
+}
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-img{
+    width: 50%;
+    
+}
+.product-cont{
+    width: 50%;
+    padding: 20px;
+    
+}
+.product-cont button{
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    
+}
+.btn{
+    margin-top: 20px;
+}
+.product-cont button:hover{
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}
+.product-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  
+  .image-gallery img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .image-gallery img.selected {
+    border-color: #000;
+  }
+   */
+   .contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .contact-page a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  .contact-page a:hover{
+    box-shadow: 0 0 25px orange;
+  }
+  .contact-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .contact-form {
+    width: 60%;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus{
+    box-shadow: 0 0 25px rgb(236, 189, 101);
+  }
+  .contact-form button {
+    padding: 10px;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .contact-form button:hover {
+    box-shadow: 0 0 25px orange;
+  }
+  
+  /* Payment */
+  .payment-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #c2bebe;
+  }
+  
+  .payment-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .payment-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .order-summary {
+    width: 50%;
+    justify-content: space-between;
+    background-color: #fff;
+    
+  }
+  
+  .order-summary h2 {
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .summary-item:nth-child(even){
+    background-color: #c2bebe;
+  }
+  
+  .summary-item img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  

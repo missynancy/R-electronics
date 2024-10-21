@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name":"Kids Slip On Sandals",
+        "price": 1200,
+        "image": "/kids images/Kids Slip On Sandals 1.jpg",
+        "image2": "/kids images/Kids Slip On Sandals 2.jpg",
+        "image3": "/kids images/Kids Slip On Sandals 3.jpg",
+        "image4": "/kids images/Kids Slip On Sandals 4.jpg",
+        "sizes" : [18, 20, 22, 24 ]
+        
+    },
+    {
+        "id": 2,
+        "name":"Unisex LED Luminous Toller Shoe",
+        "price": 1200,
+        "image": "/kids images/Unisex LED Luminous Toller Shoe 1.jpg",
+        "image2": "/kids images/Unisex LED Luminous Toller Shoe 2.jpg",
+        "image3": "/kids images/Unisex LED Luminous Toller Shoe 3.jpg",
+        "image4": "/kids images/Unisex LED Luminous Toller Shoe 4.jpg",
+        "sizes" : [18, 20, 22, 24,26, 28, 30 ]
+    },
+    {
+        "id": 3,
+        "name":"Lightweight Breathable Slip-On Sneakers",
+        "price": 1200,
+        "image": "/kids images/Lightweight Breathable Slip-On Sneakers 2.jpeg",
+        "image2": "/kids images/Lightweight Breathable Slip-On Sneakers 1.jpeg",
+        "image3": "/kids images/Lightweight Breathable Slip-On Sneakers 3.jpeg",
+        "image4": "/kids images/Lightweight Breathable Slip-On Sneakers 4.jpg",
+        "sizes" : [18, 20, 22, 24 ]
+    },
+    {
+        "id": 4,
+        "name":" Kids Road Running Shoe ",
+        "price": 1200,
+        "image": "/kids images/Road Running Shoe 2.jpg",
+        "image2": "/kids images/Road Running Shoe 1.jpg",
+        "image3": "/kids images/Road Running Shoe 3.jpg",
+        "image4": "/kids images/Road Running Shoe 4.jpg",
+        "sizes" : [ 22, 24, 26, 28, 30 ]
+    }
+]
+
