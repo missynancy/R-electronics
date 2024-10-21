@@ -8,10 +8,10 @@ export const Hero = ({heroData, heroCount, setHeroCount}) => {
         <div className="hero-text">
             <p>{heroData.text}</p>
         </div>
-        <Link to='./shop'  className="hero-link">
+        {/* <Link to='./shop'  className="hero-link">
             <p>Shop</p>
             <i className='bx bx-right-arrow-circle'></i>
-        </Link>
+        </Link> */}
         <div className="dots">
             <ul className='hero-dots'>
                 <li onClick={() => setHeroCount(0)} className={heroCount === 0 ? "hero-dot orange" : "hero-dot plain"}></li>
