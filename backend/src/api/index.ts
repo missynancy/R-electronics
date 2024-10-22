@@ -24,18 +24,14 @@ router.get<formData, any>('/category', async (req, res) =>{
 router.post<{}, any>('/add/product', async (req, res) => {
     const { name, cost, description, image ,categoryName } = req.body;
     try {
-        // Ensure the category exists before linking the product
         const category = await prisma.category.findUnique({
             where: {
                 name: categoryName
             }
         });
-
         if (!category) {
             return res.status(404).json({ error: `Category ${categoryName} not found` });
         }
-
-        // Create the new product
         const product = await prisma.product.create({
             data: {
                 name,
