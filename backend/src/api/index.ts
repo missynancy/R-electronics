@@ -84,10 +84,12 @@ router.get<{}, any>('/all/cat', async (req, res) => {
 router.get<{}, any>("/all/products", async (req, res) => {
 
     prisma.product.findMany().then( products => {
+
         if (!products){
             return res.status(404).json({ message: 'Products not found' })
         } 
-        return res.send(products)
+        res.setHeader('Cache-Control', 'no-store');
+        return res.status(201).send(products)
     }).catch (error => {
         return res.status(500).json({ message: 'Internal server error', error: error.message})
     })
