@@ -59,7 +59,10 @@
   .dots{
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    text-align: center;
+    margin-left: -35px;
   }
   .dots .hero-dots{
     

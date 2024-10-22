@@ -177,16 +177,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     border-radius: 5px;
+    font-weight: 600;
 }
 .nav2 .active{
-    background-color: orange;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 .nav2 ul li a:not(.active):hover{
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid yellow;
 }
 
 .categories {
