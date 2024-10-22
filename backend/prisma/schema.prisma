@@ -41,6 +41,6 @@ model Oders {
 model Contact {
   id Int @id @default(autoincrement())
   customerName String
-  mesage String
+  message String
   contactInfo String
 }
