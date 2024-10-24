@@ -59,7 +59,7 @@ export const Shop = () => {
               }
             </div>
           </div>
-          <div className="shop-sneaker margin" id="heels" id='office'>
+          <div className="shop-sneaker margin" id="heels">
             <h1>Desktop</h1>
             <Link to='/officials'>View All</Link>
             <div className="shop-content">

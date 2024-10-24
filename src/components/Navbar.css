@@ -15,7 +15,7 @@ nav{
     align-items: center;
     background-color: black;
     width: 100%;
-    
+    position: relative;
 }
 .nav1 #title{
     font-size: 1.5rem;
@@ -115,6 +115,10 @@ nav{
     }
     
 }
+
+
+
+
 /* menu2 */
 .nav2{
     height: 60px;

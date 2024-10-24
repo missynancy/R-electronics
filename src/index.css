@@ -4,12 +4,15 @@
 }
 
 body{
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   margin: 0;
   top: 0;
   left: 0;
   background-color: #c2bebe42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 a:hover{
   color: yellow;
@@ -210,4 +213,84 @@ a:hover{
     font-size: 1.2em;
     font-weight: bold;
   }
+
+  @media (max-width: 768px) {
+    .categories li a{
+        color: black;
+        font-size: 12px;
+        padding: 1px 3px;
+        width: 10%;
+        font-weight: 400;
+        
+    }
+    .categories li a:hover{
+        color: yellow;
+        background-color: black;
+    }   
+    .backcircle{
+      width: 400px;
+      height: 100%;
+      top: 0;
+    }
+    .hero-text{
+      font-size: 50px;
+      line-height: 0%;
+      margin-top: -100px;
+    }
+    .shop-product{
+      height:250px;
+  }
+    
+}
+@media (max-width: 425px) {
+  .search-form{
+    position: absolute;
+    left: 37%;
+    top: 20px;
+  }
+  .landing-page{
+    margin-top: -130px;
+  }
+  .nav2{
+    visibility: hidden;
+    
+  }
+  .background {
+    width: 250px;
+    height: 250px; /* Full viewport height */
+    float: left;
+    padding: none;
+    object-fit: cover;
+    
+  }
+  .back{
+    z-index: 10;
+    width: 50%;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+  }
+  .hero-text{
+    font-size: 20px;
+    margin-top: -100px;
+  }
+  .hero-link{
+    margin-top: 230px;
+  }
+  .dots{
+    margin-left: -50px;
+  }
+  .dots .hero-dots{
+    gap: 5px;
+  }
+  .hero-dot{
+    width: 13px;
+    height: 13px;
+  }
+  .links-1{
+    height: 200px;
+  }
   
+  
+  
+}
