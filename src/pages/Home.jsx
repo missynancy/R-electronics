@@ -49,7 +49,7 @@ const handleSelection = (id) => {
   {text: "Computer Accessories"},
   {text: "Phones Accessories"},
   {text: "Tv $ Entertainments"},
-  {text: "Printers, Scanners $ Copiers"},
+  {text: "Printers, Scanners  $ Copiers"},
  ]
 
  const [heroCount, setHeroCount] = useState(0);
@@ -95,28 +95,28 @@ useEffect(() => {
               <img src={img1} />
               <div className="link-1-content">
                 <h3>Phones</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-1">
               <img src={img2} />
               <div className="link-1-content">
                 <h3>Laptops</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-1">
               <img src={img3} />
               <div className="link-1-content">
                 <h3>Desktops</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-1">
               <img src={img4} />
               <div className="link-1-content">
                 <h3>Monitors</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
           </div>
@@ -125,35 +125,35 @@ useEffect(() => {
               <img src={img5} />
               <div className="link-1-content">
                 <h3>UPS/Power backup</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-2">
               <img src={img6} />
               <div className="link-1-content">
                 <h3>Computer Accessories</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-2">
               <img src={img7} />
               <div className="link-1-content">
                 <h3>Phone Accessories</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-2">
               <img src={img8} />
               <div className="link-1-content">
                 <h3>TV $ Entertainment</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
             <div className="links-1-2-2">
               <img src={img9} />
               <div className="link-1-content">
                 <h3>Printer, Scanners $ Copiers</h3>
-                <Link to='/converse'>Shop more</Link>
+                <Link to='/converse'>Explore</Link>
               </div>
             </div>
           </div>

@@ -91,23 +91,17 @@
   }
   @media (max-width: 768px) {
     .hero{
-      margin: 160px 20px;
+      margin-top: 30px;
     }
     .hero-link{
       width: 15%;
       background: transparent;
       color: white;
     }
-    .hero-link:hover{
-      
-      color: yellow;
-    }
     .hero-text{
       font-size: 40px;
     }
-    .dots{
-      margin-left: -50px;
-    }
+    
     .dots .hero-dots{
       gap: 10px;
     }

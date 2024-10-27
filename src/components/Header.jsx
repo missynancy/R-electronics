@@ -19,15 +19,15 @@ export const Header = () => {
         </div>
         <ul className={sideOpen ? "open" : ""}>
           <li>
-            <NavLink to='/phones'>Phones<i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/lp'>Laptops <i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/dp'>Desktops<i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/mt'>Monitors<i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/up'>UPS/Power backup<i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/ca'>Computer Accessories<i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/pa'>Phone Accessories<i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/tv'>TV & Entertainment <i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/pcc'>Printers, Scanners & Copiers<i className='bx bx-chevron-right'></i></NavLink>
+            <NavLink to='/phones'>Phones</NavLink>
+            <NavLink to='/lp'>Laptops </NavLink>
+            <NavLink to='/dp'>Desktops</NavLink>
+            <NavLink to='/mt'>Monitors</NavLink>
+            <NavLink to='/up'>UPS/Power backup</NavLink>
+            <NavLink to='/ca'>Computer Accessories</NavLink>
+            <NavLink to='/pa'>Phone Accessories</NavLink>
+            <NavLink to='/tv'>TV & Entertainment </NavLink>
+            <NavLink to='/pcc'>Printers, Scanners & Copiers</NavLink>
             </li>
         </ul>
         <div className="categories">
