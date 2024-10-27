@@ -29,7 +29,7 @@ export const Navbar = () => {
                         value={searchQuery} 
                         onChange={(e) => setSearchQuery(e.target.value)} 
                     />
-                    <button type="submit">Search</button>
+                    <button type="submit"><i class='bx bx-search'></i></button>
                 </form>
                 <div 
                     className='menu' 

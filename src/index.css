@@ -250,16 +250,17 @@ a:hover{
 }
 @media (max-width: 430px) {
   body{
-    width: 100%;
+    width: 430px;
     display: flex;
     flex-direction: column;
     margin: 0;
-    overflow-x: visible;
+    overflow-x: hidden;
   }
   .nav1 {
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    width: 430px;
+    margin-left: 23.7%;
 }
 
 .nav1 ul {
@@ -293,18 +294,19 @@ a:hover{
 /* Adjust padding and margins for items */
 .nav1 #title {
     margin-bottom: 10px;
-    margin-left: 25%;
 }
   
   .landing-page{
     margin-top: -130px;
+    width: 430px;
+    margin-left: 23.9%;
   }
   .nav2{
     visibility: hidden;
     
   }
   .background {
-    width: 250px;
+    width: 150px;
     height: 250px; /* Full viewport height */
     float: left;
     padding: none;
@@ -321,15 +323,14 @@ a:hover{
   .hero-text{
     font-size: 40px;
     margin-top: -100px;
-    margin-left: 23%;
     font-weight: 600;
   }
   .hero-link{
     margin-top: 230px;
   }
-  .dots{
+  /* .dots{
     margin-left: 20%;
-  }
+  } */
   .dots .hero-dots{
     gap: 5px;
   }
@@ -337,10 +338,26 @@ a:hover{
     width: 18px;
     height: 18px;
   }
-  .links-1{
-    height: 200px;
+  .links-1,
+  .links-1-2{
+    height: 150px;
+    position: relative;
   }
-  
-  
+  .links-1-2-2{
+    height: 100%;
+    position: relative;
+  }
+  .link-1-content h3{
+    position: absolute;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .link-1-content a{
+    position: absolute;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
   
 }
